@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant Noodles</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="links">
+                <a href="index.html">home</a>
+                <a href="#sec1" class="active">general info</a>
+                <a href="#sec2">popular instant noodles</a>
+                <a href="#sec3">credits</a>
+                <a href="#" class="currentMode">
+                    <ion-icon name="sunny"></ion-icon>
+                  </a>
+            </div>
+
+            <div class="icons">
+                <a href="#" class="currentMode">
+                  <ion-icon name="sunny"></ion-icon>
+                </a>
+                <a href="#sidenav" id="menuBtn">
+                  <ion-icon name="menu"></ion-icon>
+                </a>
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <div class="sidenav">
+            <a href="index.html">home</a>
+            <a href="#sec1" class="active">general info</a>
+            <a href="#sec2">popular instant noodles</a>
+            <a href="#sec3">credits</a>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="bancontent">
+            <div class="bantext">
+                <h3><span class="instant">instant</span> noodles</h3>
+                <h5>discover somewhat of a world of them with us now</h5>
+            </div>
+        </div>
+    </div>
+
+    <div id="sec1">
+        <h2>general information</h2>
+        <p>Instant noodles originated in Japan in the year 1958, made under the name Chikin Ramen, 
+        which had the goal to help end hunger in the country during that period.<br/>
+        The inventor knew it had to be delicious, nonperishable, easy to prepare, and inexpensive.
+        That food was this 29-cent pack of instant ramen. <br/> Today, 290 million people eat instant 
+        noodles, making it a common item you'll find in most households.
+        <br/>The Chinese term for this is 方便面 (fāng biàn miàn)-- convenient noodles, which is basically what it is: an easy,
+        quick and cheap way to keep yourself from starving.</p>
+    </div>
+
+    <div id="sec2">
+        <h2>popular instant noodles</h2>
+        <div class="instant-wrapper">
+            <!-- <div class="instant-brand">
+                <img src="noodleimages/buldak_spicy_chicken_noodles.jpeg" alt="">
+                <div class="overlay">
+                    <h5>SAMYANG BULDAK NOODLES (orignal)<br/>
+                    spicy noodles, eat at your own risk</h5>
+                    <button>more detail</button>
+                </div>
+            </div> -->
+
+        </div>
+
+        <section class="noodle-modal hideModal">
+            <!-- <div class="modal-container">
+                <div class="modal-header">
+                  <h1>name<span class="closeBtn"><ion-icon name="close-circle"></ion-icon></span></h1>
+                </div>
+                <div class="modal-body">
+                    <h3>titledescription</h3>
+                    <div class="noodleinfo">
+                        <h4>weight: <span>weightinput</span></h4>
+                        <h4>calories: <span>caloriesinput</span></h4>
+                        <h4>expiry: <span>expiryinput</span></h4>
+                        <h4>release: <span>releaseinput</span></h4>
+                    </div>
+                    <p>Lorem text input</p>
+                    <a href="https://www.amazon.com/OTTOGI-Korean-Instant-Tasting-Traditional/dp/B08XN5FRZ2/ref=sr_1_4?crid=2YKLOIBLHVHAT&keywords=jin+ramen&qid=1671272015&sprefix=jin+rame%2Caps%2C512&sr=8-4" class="btn">order on amazon here !</a>
+                </div>
+            </div> -->
+        </section>
+    </div>
+
+    <div id="sec3">
+        <h2>credits</h2>
+        <h5>google, i took a bit of the text for the paragraph from there</h5>
+        <h5>my friend, for giving me the idea of building a website for instant noodles :D</h5>
+        <h5>@jaimetamere1</h5>
+    </div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="data.js"></script>
+</body>
+</html>

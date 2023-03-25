@@ -1,0 +1,25 @@
+/* phone screen */
+
+@media only screen and (max-width: 786px) {
+    .links {
+        display: none;
+    }
+}
+
+/* tablet screen */
+
+@media only screen and (min-width: 786px) {
+    .links {
+        display: flex;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .instant-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
